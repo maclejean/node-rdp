@@ -177,7 +177,3 @@ all of its children, including the RDP client.
 
 [license-image]: http://img.shields.io/badge/license-Apache_2.0-blue.svg?style=flat
 [license-url]: LICENSE
-
-[npm-url]: https://npmjs.org/package/node-rdp
-[npm-version-image]: http://img.shields.io/npm/v/node-rdp.svg?style=flat
-[npm-downloads-image]: http://img.shields.io/npm/dm/node-rdp.svg?style=flat

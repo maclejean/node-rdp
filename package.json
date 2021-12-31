@@ -1,5 +1,5 @@
 {
-  "name": "node-rdp",
+  "name": "cross-node-rdp",
   "version": "1.0.1",
   "description": "Microsoft Remote Desktop Protocol wrapper for NodeJS",
   "main": "lib/rdp.js",
@@ -20,17 +20,6 @@
     "mstsc",
     "terminal server"
   ],
-  "homepage": "https://github.com/frapontillo/node-rdp",
-  "bugs": "https://github.com/frapontillo/node-rdp/issues",
-  "author": {
-    "name": "Francesco Pontillo",
-    "email": "francescopontillo@gmail.com",
-    "url": "https://github.com/frapontillo"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/frapontillo/node-rdp.git"
-  },
   "license": "Apache-2.0",
   "dependencies": {
     "q": "^1.2.0",
