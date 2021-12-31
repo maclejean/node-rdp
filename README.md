@@ -20,10 +20,10 @@ You can also use node-rdp as a shell command if you install it globally with the
 
 ## Command Line Usage
 
-The `node-rdp` usage follows the syntax:
+The `cross-node-rdp` usage follows the syntax:
 
 ```shell
-$ node-rdp -a 123.45.67.89:1337 -u DOMAIN\username -p thepassword
+$ cross-node-rdp -a 123.45.67.89:1337 -u DOMAIN\username -p thepassword
 ```
 
 The needed parameters are:
@@ -105,7 +105,7 @@ All other options are pretty straightforward:
 if you want to see all of your local computer's drives among the remote computer's ones, just do:
 
 ```javascript
-var rdp = require('node-rdp');
+var rdp = require('cross-node-rdp');
 
 rdp({
   address: '123.45.67.89:1337',
@@ -126,7 +126,7 @@ Also, when this deferred object is resolved, the RDP process will be force-kille
 The following example implements a simple system that will force-close the connection after a minute.
 
 ```javascript
-var rdp = require('node-rdp');
+var rdp = require('cross-node-rdp');
 
 rdp({
   address: '123.45.67.89:1337',
@@ -143,7 +143,7 @@ rdp({
 });
 ```
 
-The safe mode is not implemented in the `node-rdp` global CLI, since you can simply force-close the process to terminate
+The safe mode is not implemented in the `cross-node-rdp` global CLI, since you can simply force-close the process to terminate
 all of its children, including the RDP client.
 
 ## License
