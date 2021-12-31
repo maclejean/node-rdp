@@ -1,6 +1,6 @@
 {
   "name": "cross-node-rdp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Microsoft Remote Desktop Protocol wrapper for NodeJS",
   "main": "lib/rdp.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "lib"
   ],
   "bin": {
-    "node-rdp": "lib/rdp-cli.js"
+    "cross--node-rdp": "lib/rdp-cli.js"
   },
   "keywords": [
     "rdp",

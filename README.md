@@ -1,4 +1,4 @@
-node-rdp
+cross-node-rdp
 ========
 
 [![NPM version][npm-version-image]][npm-url]
@@ -7,15 +7,16 @@ node-rdp
 
 _Microsoft Remote Desktop Protocol wrapper for NodeJS_
 
+
 Install via `npm`:
 
 ```shell
-$ npm install node-rdp --save
+$ npm install cross-node-rdp --save
 ```
 
 You can also use node-rdp as a shell command if you install it globally with the `--global` modifier.
 
-**IMPORTANT**: Windows is the only platform currently supported. I'm already working on adding Mac OS X support.
+**IMPORTANT**: Windows and Mac OS are both supported.
 
 ## Command Line Usage
 
