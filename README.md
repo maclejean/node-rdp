@@ -116,18 +116,6 @@ rdp({
 });
 ```
 
-<a id="caveats">
-## Hooplas Involving Circus Tricks (Caveats and Their Friends)
-
-After saving the connection credentials in the system key store, the main RDP connection process is launched.
-Sometimes, somehow, the launched process doesn't terminate by itself when the RDP window is closed by the user, causing
-the returned promise to never be resolved. Eventually, after a timespan that ranges between a few seconds up to a solid
-minute, the process finally closes, returning control to the Node process.
-
-![I know, right?](http://i.imgur.com/nLKkvte.gif)
-
-_I know, right?_
-
 If you need absolute certainty about the handling of the process you can enable `safeMode` among the configuration
 parameters; this mode won't resolve the `Promise` with a simple object, but with a `Deferred` one as soon as the
 connection is initiated, meaning you can manually resolve it whenever you want (e.g. you can prompt the user to press
